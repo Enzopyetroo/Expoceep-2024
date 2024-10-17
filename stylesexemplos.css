@@ -1,12 +1,12 @@
- .intro{
+.intro{
     width: 85%;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 1.5rem;
     line-height: 26px;
 }
 
 .nome{
-    font-size: 30px;
+    font-size: 2rem;
     margin-bottom: 10px;
     margin-top: 50px;
     width: 80%;
@@ -28,7 +28,7 @@ th{
     line-height: 30px;
     max-width: 90%;
     min-width: 200px;
-    font-size: 125%;
+    font-size: 1.5rem;
     height: 10%;
     width: 100%;
     max-width: 90%;
