@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agro - Exemplos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesexemplos.css">
+    <link rel="icon" type="image/x-icon" href="Imagens/icon.png">
+    <script>
+        function manual(){
+            if (document.getElementById('manual').style.display == 'none'){
+                document.getElementById('manual').style.display = 'block'
+            }else{
+                document.getElementById('manual').style.display = 'none'
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="manual" id="manual" style="display: none;">
+        <img src="Imagens/close.svg" alt="Fechar" id="X" onclick="document.getElementById('manual').style.display = 'none'" draggable="true">
+        <br>
+        <img src="Imagens/Banner.png" alt="Banner" id="banner">
+        <br><br>
+        <h1>Bem vindo ao site Projeto Agro!</h1><br>
+        <p>Esse site tem o objetivo de informar sobre os avanços tecnológicos na área da agricultura,<br>
+            aqui você vai poder aprender mais e ainda ver exemplos de máquinas intensivas.<br><br>
+            Clique no botão no fundo da página para avançar.<br><br><br>
+            Site feito inteiramente por Enzo Pyetro Machado Joppert.
+        </p>
+      </div>
+
+    <header class="barratopo" id="header">
+        <div class="ajuda" onclick="manual()">
+            <p>Ajuda</p>
+            <img src="Imagens/question.svg">
+            </div>
+        <div class="grupo">
+            <a href="index.html"><img src="Imagens/icon.png" class="logo"></a>
+            <h2>PROJETO AGRO</h2>
+        </div>
+    </header>
+
+    <main>
+    <center><div class="intro">
+    <p>
+        A agricultura do mundo globalizado à partir do apoio de máquinas agrícolas avançadas e 
+        tecnológicas, tem um papel extremamente crucial na produção de alimentos em grande quantidade, 
+        atendendo a demanda não só de cidades, como do mundo todo. Essas máquinas não atuam somente na 
+        eficiência de produção do campo, mas também abrem diversas portas para outras áreas, especialmente 
+        quando falamos da fabricação e manutenção de tais artifícios. A produção em larga escala de itens 
+        do plantio tem um impacto significante não só para os fazendeiros, como também para as cidades e países, 
+        por nos trazer variedade nos produtos que compramos no dia a dia.<br>
+    </p>
+    <br>
+
+    <h2>
+        Exemplos de máquinas agrícolas:
+    </h2>
+    </div>
+
+    <h1 class="nome">
+    Tratores
+    </h1>
+    <table class="table">
+        <tr>
+            
+            <th>
+                <img src="Imagens/Trator.jpeg" alt="Plantio de soja utilizando um trator">
+            </th>
+            <th>
+                <div class="texto">
+                    <p> 
+                        Os tratores são utilizados para diversos tipos de atividade numa plantação.
+                        Podem ser usados para preparar o solo, colher, e até mesmo para se locomover em
+                        um curto período de tempo, fazendo estes serem um bem extremamente útil para uma
+                        fazenda e lavoura.
+                    </p>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+    <h1 class="nome">
+        Semeadoras
+        </h1>
+        <table>
+            <tr>
+                <th>
+                    <img src="Imagens/Semeadora.jpg" alt="Máquina semeadora no campo">
+                </th>
+                <th>
+                    <div class="texto">
+                        <p> 
+                            São máquinas de tamanho avantajado iguais às colheitadeiras,
+                            estas que, são responsávels por espalhar sementes pelas lavouras e
+                            plantações em geral, tornando um processo lento e cansativo em algo 
+                            mais eficiente e produtivo.
+                        </p>
+                    </div>
+                </th>
+            </tr>
+        </table>
+
+        <h1 class="nome">
+            Colheitadeiras
+            </h1>
+            <table class="table">
+                <tr>
+                    <th>
+                        <img src="Imagens/Colheitadeira.png" alt="Máquina colheitadeira no campo">
+                    </th>
+                    <th>
+                        <div class="texto">
+                            <p> 
+                                Como seu nome diz, é uma colheitadeira, responsável pela coleta rápida e 
+                                eficiente de bens da plantação, por conta de seu tamanho avantajado, 
+                                sua coleta é mais veloz do que a de um fazendeiro de mãos nuas. 
+                                Isso torna o processo de colheita muito menos demorado, e o torna mais eficiente.
+                            </p>
+                            </div>
+                    </th>
+                </tr>
+            </table>
+
+            <h1 class="nome">
+                Pulverizadores
+                </h1>
+                <table class="table">
+                    <tr>
+                        <th>
+                            <img src="Imagens/Pulverizador.jpeg" alt="Máquina pulverizadora no campo">
+                        </th>
+                        <th>
+                            <div class="texto">
+                                <p> 
+                                    Os pulverizadores são máquinas responsáveis pela aplicação
+                                    de produtos fertilizantes, protetivos, e outros químicos 
+                                    responsáveis pela proteção do plantio.
+                                </p>
+                                </div>
+                        </th>
+                    </tr>
+                </table></center>
+    </main>
+
+    <a href="index.html">
+        <button class="botão">
+                <p>Voltar</p>
+        </button>
+    </a>
+    <br><br><br><br><br>
+    
+    <footer id="barrabottom">
+        <b>
+            <p class="cred">Site feito por Enzo Pyetro Machado Joppert</p>
+        </b>
+    </footer>
+</body>
+</html>
